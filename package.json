@@ -1,0 +1,14 @@
+{
+  "name": "nhanghianhtho",
+  "version": "1.0.0",
+  "description": "Real-time room booking system with Cloudflare Workers and D1",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute nhanghianhtho --file=./schema.sql"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.0"
+  }
+}
