@@ -1,0 +1,8 @@
+name = "nhanghianhtho"
+main = "worker.js"
+compatibility_date = "2026-06-19"
+workers_dev = true
+
+[[d1_databases]]
+binding = "BOOKING_DB"
+database_name = "booking-db"
